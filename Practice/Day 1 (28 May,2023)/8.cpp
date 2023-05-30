@@ -9,11 +9,15 @@ int main ()
 
     while(i<n);
     {
-        if(n%i ==0)
-        cout<<"Not prime for: "<< i<< endl;
+        if(n%i==0)
+        {
+        cout<<"Not prime for: ";
+        }
 
         else
-        cout<<"Prime for: "<< i << endl;
+        {
+        cout<<"Prime for: ";
+        }
 
         i++;
     }
